@@ -1,1 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,600&display=swap");
+/* fonts */
+body {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  display: flex;
+}
+/* Left side of the form */
+.leftSide {
+  width: 40vw;
+  height: 100vh;
+  background-image: url(images/bg.jpg);
+  background-size: cover;
+  border-right: 2px solid black;
+}
+.logoPos {
+  color: white;
+  margin-top: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(0, 0, 0, 0.3);
+}
+.logo img {
+  width: 150px;
+  height: 150px;
+}
+.logoText {
+  font-size: 100px;
+  font-family: "Playfair Display", serif;
+}
+/* bottom of the leftSide */
+.bottomText {
+  display: flex;
+  height: 65vh;
+  width: 40vw;
+  justify-content: center;
+  align-items: center;
+}
+.bottomText a {
+  color: white;
+}
+.credits {
+  color: white;
+  align-self: flex-end;
+}
 
+/* right side of the form */
+.rightSide {
+  width: 60vw;
+}
