@@ -1,5 +1,5 @@
 let Password = document.getElementById("password");
-let confirmPassword = document.getElementById("password");
+let confirmPassword = document.getElementById("confirmPassword");
 let fName = document.getElementById("firstName");
 let email = document.getElementById("email");
 let passwordOut = document.getElementById("password");
@@ -8,19 +8,17 @@ let phone = document.getElementById("phone");
 let confPass = document.getElementById("confirmPassword");
 
 function pass() {
-  if (Password !== confirmPassword) {
-    alert("Password not the same");
+  if (Password.value !== confirmPassword.value) {
+    Password.classList.add('error');
+    confirmPassword.classList.add('error');
+  }
+  else{
+    Password.classList.remove('error');
+    confirmPassword.classList.remove('error');
   }
 }
 const createAccount = document.querySelector(".createAccount");
 
 createAccount.addEventListener("click", () => {
   pass();
-  fName.value = "";
-  email.value = "";
-  passwordOut.value = "";
-  lastName.value = "";
-  phone.value = "";
-  confPass.value = "";
-  console.log("test");
 });

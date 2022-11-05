@@ -5,7 +5,7 @@ body {
   padding: 0;
 }
 
-.container{
+.container {
   display: flex;
   height: 100vh;
 }
@@ -55,69 +55,67 @@ body {
 /* top  */
 .topRight {
   height: 35vh;
-  background-color: rgba(249,250,251,255);
+  background-color: rgba(249, 250, 251, 255);
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.topRight span{
+.topRight span {
   font-size: 30px;
   font-weight: bold;
   padding: 30px;
-  text-align:left;
+  text-align: left;
   font-family: sans-serif;
-  width: 600px
+  width: 600px;
 }
 /* middle */
 .middleRight {
-  background-color: rgb(251,251,251);
+  background-color: rgb(251, 251, 251);
   height: 30vh;
   padding-left: 50px;
   display: flex;
   gap: 60px;
-  border: 3px  rgb(128,128,128, 0.2);
-  border-style:groove;
+  border: 3px rgb(128, 128, 128, 0.2);
+  border-style: groove;
 }
-.middleRight p{
+.middleRight p {
   font-size: 20px;
   font-family: sans-serif;
-
 }
-input{
+input {
   margin-bottom: 20px;
   height: 20px;
   width: 250px;
   border-radius: 5px;
-  border-color: aliceblue; 
+  border-color: aliceblue;
 }
-.inputs{
+.inputs {
   margin-top: 62px;
 }
-input:focus{
+input:focus {
   outline: none;
   border: 3px solid #089aca;
   box-shadow: 2px 5px rgb(203, 207, 207);
 }
 /* bottom */
 .bottomRight {
-  background-color: rgba(249,250,251,255);
+  background-color: rgba(249, 250, 251, 255);
   margin-top: 50px;
 }
-.createAccount{
+.createAccount {
   margin-left: 50px;
   margin-bottom: 20px;
   text-align: center;
   width: 200px;
   height: 50px;
   border-radius: 10px;
-  background-color: #596D48;
+  background-color: #596d48;
   color: white;
   font-size: 20px;
   border: 0;
-  transform: scale(1.0);
-
+  transform: scale(1);
 }
-.createAccount:hover{
+.createAccount:hover {
   transform: scale(1.1);
   color: black;
 }
@@ -125,14 +123,15 @@ input:focus{
   margin-left: 50px;
   font-family: sans-serif;
 }
-.bottomRight p a{
-  color: #596D48;
+.bottomRight p a {
+  color: #596d48;
   text-decoration: none;
   font-size: 20px;
 }
-legend{
+legend {
   font-family: sans-serif;
 }
-.error{
+.error {
   border-color: red;
 }
+
